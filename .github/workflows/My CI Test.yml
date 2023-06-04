@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout my code
-      - uses: actions/checkout@v3
+        uses: actions/checkout@v3
 
       - name: Run Super-Lint
-      - uses: github/super-linter@v3
+        uses: github/super-linter@v3
