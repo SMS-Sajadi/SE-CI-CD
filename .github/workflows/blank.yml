@@ -1,0 +1,14 @@
+name: Testing CI
+
+on: push
+
+jobs:
+  super-lint:
+    name: Lint Code
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout my code
+      - uses: actions/checkout@v3
+
+      - name: Run Super-Lint
+      - uses: github/super-linter@v3
