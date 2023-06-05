@@ -4,6 +4,18 @@ def add(x, y):
     return my_sum
 
 
+def minus(x, y):
+    my_minus = x - y
+    print("The minus is:", my_minus)
+    return my_minus
+
+
+def multiply(x, y):
+    my_multiply = x * y
+    print ("The multiply is:", my_multiply)
+    return my_multiply
+
+
 class temp:
     def __init__(self):
         pass
